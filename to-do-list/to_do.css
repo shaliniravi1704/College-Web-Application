@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Serif", serif;
+}
+
+.heading{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(150deg, lightpink, lightblue); 
+    padding-top: 150px;
+
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    max-width: 540px;
+    border-radius:10px;
+    background: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box img{
+width: 30px;
+margin-left: 10px;
+}
+
+.box h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+    display: flex;
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(220, 225, 225);
+    border-radius: 30px;
+}
+
+#input-box{
+    flex: 1;
+    padding: 20px;
+    border: none;
+    margin: none;
+    background: transparent;
+    outline: none;
+}
+button{
+    padding: 20px 10px;
+    border-radius: 30px;
+    width: 30%;
+    background-color: rgb(238, 156, 156);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+ul li{
+    list-style: none;
+    padding: 20px 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+}
+
+ul li::before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url("images/unchecked.png");
+    background-position: center;
+    background-size: cover;
+    top:12px;
+    left: 5px;
+}
+
+ul li.checked::before{
+    background-image: url("images/checked.png");
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size:22px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 2px 7px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+ul li span:hover{
+    background-color: rgb(220, 227, 234);
+}
+
+
+
+
+
+
+
