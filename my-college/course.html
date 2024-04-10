@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="college.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hiddenMenu()"> </i> <!-- close -->
+                <ul>
+                    <li><a href="college.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"> </i> <!-- open menu -->
+        </nav>
+        <h2> Our Courses </h2>
+    </section>
+
+ <!-----Courses content ---->
+
+ <section class="course">
+    <h2> Course We Offer</h2>
+    <p> VIT Group of Institutions offer 71 Undergraduate, 58 Postgraduate, 15 Integrated Programmes, 2 Research
+        programmes and 2 M.Tech Industrial Programmes.<br> In addition to full-time Ph.D Degrees in Engineering and
+        Management Disciplines, Ph.D. in Science and Languages and Integrated Ph.D. programmes in engineering
+        disciplines</p>
+
+    <div class="content">
+        <div class=course-col>
+            <h3>UnderGraduate</h3>
+            <p> The full form for UG is undergraduate. Undergraduate refers to the studies done after completing
+                schooling (post-secondary education) and before attaining a postgraduate degree. </p>
+        </div>
+        <div class=course-col>
+            <h3> PostGraduate</h3>
+            <p>PG stands for postgraduate, representing the subsequent higher education level available to students
+                after completing their undergraduate program. </p>
+        </div>
+        <div class=course-col>
+            <h3>Phd</h3>
+            <p>PhD is short for Doctor of Philosophy. This is an academic or professional degree that, in most
+                countries, qualifies the degree holder to teach their chosen subject </p>
+        </div>
+    </div>
+</section>
+
+
+     <!-----More Details ---->
+     <section class="more-details">
+        <h3> More Details</h3>
+        <p> VIT was established with the aim of providing quality higher education on par with international standards.  </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <h2> Website Done By Shalini <i class="fa fa-heart"></i></h2>
+    </section>
+
+    <!-----Javacript ---->
+    <script>
+        var responsiveNav = document.getElementById("nav-links");
+        function showMenu() {
+            responsiveNav.style.right = "0";
+        }
+        function hiddenMenu() {
+            responsiveNav.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
