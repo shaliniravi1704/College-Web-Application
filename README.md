@@ -16,7 +16,7 @@ This college application project provides students with access to various featur
 
 Clone this repository to your local machine using the following command:
 
-**git clone https://github.com/shaliniravi1704/College-Web-Application.git**
+**git clone https://github.com/shaliniravi1704/frontend-end-applications.git**
 
 ### Install Dependencies
 
@@ -55,4 +55,4 @@ This project is licensed under the MIT License.
 
 ## Support
 
-If you encounter any issues or have any questions, feel free to [open an issue](https://github.com/shaliniravi1704/College-Web-Application/issues) on GitHub.
+If you encounter any issues or have any questions, feel free to [open an issue](https://github.com/shaliniravi1704/frontend-end-applications/issues) on GitHub.
