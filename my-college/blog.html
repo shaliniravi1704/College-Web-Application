@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="college.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hiddenMenu()"> </i> <!-- close -->
+                <ul>
+                    <li><a href="college.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"> </i> <!-- open menu -->
+        </nav>
+        <h2> Our Certificates & Online Programs for 2024</h2>
+    </section>
+
+    
+     <!-----Blog page content ---->
+     <section class="blogs">
+        <div class="row">
+            <div class="blogs-left">
+                <img src="images/certificate.jpg">
+                <h2> Our Certificates & Online Programs for 2024</h2>
+                <p> VIT University is working on to introduce ‘Online Certification Programme’ for its alumnus from January. It would keep them abreast of their day-to-day knowledge and various developments taking place in the field of management, said VIT University Vice-Chancellor Anand A Samuel.
+                    Speaking at the VIT Management Alumni Association (VITMAA-2016) celebrations here on Monday, he said the online programme would strengthen the bondage of the alumni with the university further.</p>
+                   <br>
+                  <p> VIT was established with the aim of providing quality higher education on par with international standards. It persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent basis. The campus has a cosmopolitan atmosphere with students from all corners of the globe.</p>
+                   <br>
+                   <p>Anand A Samuel said that the VIT Business School of Management had done 100 per cent digitilisation, by keeping in my mind the requirements of the future industries and its demand for students who had set their foot-prints in the area of digital.
+                    He made an appeal to alumnus association members to join their hands with the VIT Business School and the students who were making remarkable activities in various projects.
+                    He also wanted that the alumni should take a big role in university getting various rankings at the world-level, just as the business school had been placed recently in the sixth rank among various private institutions in the country.</p>
+             <div class="comment">
+                <h3> Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"> 
+                    </textarea>
+                    <button type="Submit" class="btn-1"> POST COMMENT</button>
+                </form>
+             </div>
+                </div>
+            <div class="blogs-right">
+                 <h3>Post Categories</h3>
+                 <div>
+                    <span> Arts</span>
+                    <span> 20 </span>
+                 </div>
+                 <div>
+                    <span> Business Analytics</span>
+                    <span> 21 </span>
+                 </div>
+                 <div>
+                    <span> Data Science</span>
+                    <span> 22 </span>
+                 </div>
+                 
+                 <div>
+                    <span> Machine Learning</span>
+                    <span> 23 </span>
+                 </div>
+                 
+                 <div>
+                    <span> Computer Science</span>
+                    <span> 24 </span>
+                 </div>
+                 
+                 <div>
+                    <span> Comerce</span>
+                    <span> 25 </span>
+                 </div>
+                 
+                 
+                
+            </div>
+        </div>
+     </section>
+
+     <!-----More Details ---->
+     <section class="more-details">
+        <h3> More Details</h3>
+        <p> VIT was established with the aim of providing quality higher education on par with international standards.  </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <h2> Website Done By Shalini <i class="fa fa-heart"></i></h2>
+    </section>
+
+    <!-----Javacript ---->
+    <script>
+        var responsiveNav = document.getElementById("nav-links");
+        function showMenu() {
+            responsiveNav.style.right = "0";
+        }
+        function hiddenMenu() {
+            responsiveNav.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
